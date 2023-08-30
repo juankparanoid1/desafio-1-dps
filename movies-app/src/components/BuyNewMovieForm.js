@@ -31,7 +31,6 @@ export const BuyNewMovieForm = () => {
             alert('La pelicula ya se encuentra en su lista.');
         } else {
             setmoviesSelectedList((prev) => [...prev, movie]);
-            alert('Pelicula agregada a la lista');
         }
         reset();
     }
